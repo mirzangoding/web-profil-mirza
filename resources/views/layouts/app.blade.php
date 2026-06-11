@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portofolio Mirza — Creative Designer, Video Editor & Filmmaker profesional. Temukan karya-karya terbaik dalam bidang desain grafis, animasi, dan film.">
-    <meta name="keywords" content="portofolio, desainer grafis, video editor, filmmaker, animasi, kreatif, Indonesia">
+    <meta name="description" content="Portofolio Mirza — Desainer Grafis & Video Editor profesional. Temukan karya-karya terbaik dalam bidang desain grafis, branding, ilustrasi, dan video animasi.">
+    <meta name="keywords" content="portofolio, desainer grafis, video editor, branding, ilustrasi, kreatif, Indonesia">
     <meta name="author" content="Mirza">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title', 'Mirza — Creative Portfolio')</title>
@@ -30,6 +30,9 @@
     <link rel="stylesheet" href="{{ asset('css/portfolio.css') }}">
 
 
+
+    <!-- Model Viewer for 3D Assets -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
 
     @stack('styles')
 </head>

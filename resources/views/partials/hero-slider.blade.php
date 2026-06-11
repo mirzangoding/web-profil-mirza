@@ -35,11 +35,11 @@
             <div class="swiper-slide hero-slide" style="background-image: url('{{ asset('images/hero/slide3.png') }}')">
                 <div class="hero-overlay"></div>
                 <div class="hero-content">
-                    <p class="hero-eyebrow" id="slide3-eyebrow">Filmmaker</p>
-                    <h1 class="hero-title" id="slide3-title">Crafting Cinematic<br><em>Moments</em></h1>
-                    <p class="hero-desc" id="slide3-desc">Film pendek, dokumenter, dan narasi visual yang menggerakkan hati.</p>
+                    <p class="hero-eyebrow" id="slide3-eyebrow">Graphic Designer</p>
+                    <h1 class="hero-title" id="slide3-title">Shaping Brand<br><em>Identities</em></h1>
+                    <p class="hero-desc" id="slide3-desc">Desain logo, branding corporate, dan ilustrasi digital yang memperkuat pesan brand Anda.</p>
                     <div class="hero-buttons">
-                        <a href="#portfolio" class="btn-hero-primary" id="slide3-cta-primary">Eksplorasi Film</a>
+                        <a href="#portfolio" class="btn-hero-primary" id="slide3-cta-primary">Lihat Desain</a>
                         <a href="#contact" class="btn-hero-secondary" id="slide3-cta-secondary">Kolaborasi</a>
                     </div>
                 </div>

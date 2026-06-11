@@ -2,7 +2,7 @@
     <div class="container nav-container">
         <!-- Logo -->
         <a href="{{ url('/') }}" class="nav-logo" id="nav-logo">
-            <span class="logo-initial">M</span>
+            <img src="{{ asset('images/profile/photo.png') }}" alt="Mochammad Mirza Ubadah" class="logo-profile-img">
             <div class="logo-text">
                 <span class="logo-name">Mirza</span>
                 <span class="logo-tagline">Creative Portfolio</span>

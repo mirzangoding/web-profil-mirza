@@ -7,30 +7,27 @@
                 <!-- Col 1: Brand -->
                 <div class="footer-col footer-brand" id="footer-brand">
                     <div class="footer-logo">
-                        <span class="logo-initial">M</span>
+                        <img src="{{ asset('images/profile/photo.png') }}" alt="Foto Profil Mirza" class="footer-logo-img">
                         <div>
                             <span class="logo-name">Mochammad Mirza Ubadah</span>
-                            <span class="logo-tagline">Creative Professional</span>
+                            <span class="logo-tagline">Graphic Designer</span>
                         </div>
                     </div>
                     <p class="footer-desc" id="footer-desc">
-                        Desainer grafis, video editor, dan filmmaker yang bersemangat menciptakan karya visual yang berkesan dan bermakna.
+                        Desainer grafis yang bersemangat dalam branding, identitas visual, dan desain media kreatif. Aktif di Surabaya, Indonesia.
                     </p>
                     <div class="footer-social" id="footer-social">
-                        <a href="#" class="footer-social-link" id="footer-instagram" aria-label="Instagram">
+                        <a href="https://www.instagram.com/milestooneid?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener" class="footer-social-link" id="footer-instagram" aria-label="Instagram">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="#" class="footer-social-link" id="footer-behance" aria-label="Behance">
-                            <i class="fab fa-behance"></i>
-                        </a>
-                        <a href="#" class="footer-social-link" id="footer-youtube" aria-label="YouTube">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                        <a href="#" class="footer-social-link" id="footer-linkedin" aria-label="LinkedIn">
+                        <a href="https://www.linkedin.com/in/mochammad-mirza-ubadah-98768a352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener" class="footer-social-link" id="footer-linkedin" aria-label="LinkedIn">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="#" class="footer-social-link" id="footer-vimeo" aria-label="Vimeo">
-                            <i class="fab fa-vimeo-v"></i>
+                        <a href="mailto:mirzaubadah9i@gmail.com" class="footer-social-link" id="footer-gmail" aria-label="Gmail">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://wa.me/6288226085310?text=Hallo%2C+saya+tertarik+dengan+jasa+anda!" target="_blank" rel="noopener" class="footer-social-link footer-social-wa" id="footer-whatsapp" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
                         </a>
                     </div>
                 </div>
@@ -51,11 +48,10 @@
                 <div class="footer-col" id="footer-svc-col">
                     <h4 class="footer-title" id="footer-svc-title">Layanan</h4>
                     <ul class="footer-links" id="footer-svc-links">
-                        <li><a href="#portfolio" id="footer-svc-design"><i class="fas fa-chevron-right"></i> Desain Grafis</a></li>
-                        <li><a href="#portfolio" id="footer-svc-video"><i class="fas fa-chevron-right"></i> Video Editing</a></li>
-                        <li><a href="#portfolio" id="footer-svc-motion"><i class="fas fa-chevron-right"></i> Motion Graphics</a></li>
-                        <li><a href="#portfolio" id="footer-svc-film"><i class="fas fa-chevron-right"></i> Produksi Film</a></li>
-                        <li><a href="#portfolio" id="footer-svc-photo"><i class="fas fa-chevron-right"></i> Photography</a></li>
+                        <li><a href="#portfolio" id="footer-svc-content"><i class="fas fa-chevron-right"></i> Desain Konten</a></li>
+                        <li><a href="#portfolio" id="footer-svc-motion"><i class="fas fa-chevron-right"></i> Motion Graphic</a></li>
+                        <li><a href="#portfolio" id="footer-svc-event"><i class="fas fa-chevron-right"></i> Desain Event</a></li>
+                        <li><a href="#portfolio" id="footer-svc-branding"><i class="fas fa-chevron-right"></i> Brand Identity</a></li>
                     </ul>
                 </div>
 
@@ -65,15 +61,15 @@
                     <ul class="footer-contact-list" id="footer-contact-list">
                         <li id="footer-contact-email">
                             <i class="fas fa-envelope"></i>
-                            <a href="mailto:mirza@email.com">mirza@email.com</a>
+                            <a href="mailto:mirzaubadah9i@gmail.com">mirzaubadah9i@gmail.com</a>
                         </li>
                         <li id="footer-contact-phone">
-                            <i class="fas fa-phone"></i>
-                            <a href="tel:+62812xxxxxxxx">+62 812-xxxx-xxxx</a>
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/6288226085310?text=Hallo%2C+saya+tertarik+dengan+jasa+anda!" target="_blank">+62 882-2608-5310</a>
                         </li>
                         <li id="footer-contact-location">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Indonesia</span>
+                            <span>Surabaya, Indonesia</span>
                         </li>
                         <li id="footer-contact-available">
                             <i class="fas fa-circle available-dot"></i>

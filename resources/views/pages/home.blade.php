@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Mochammad Mirza Ubadah — Creative Designer, Video Editor & Filmmaker')
+@section('title', 'Mochammad Mirza Ubadah — Desainer Grafis & Video Editor')
 
 @section('content')
     @include('partials.hero-slider')

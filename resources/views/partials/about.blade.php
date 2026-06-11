@@ -13,11 +13,20 @@
             <!-- Profile Image Column -->
             <div class="about-image-col">
                 <div class="about-image-wrapper" id="about-image-wrapper">
-                    <img src="{{ asset('images/profile/photo.png') }}" 
-                         alt="Foto Profil Mochammad Mirza Ubadah" 
-                         class="about-photo" 
-                         id="about-photo" 
-                         loading="lazy">
+                    <model-viewer 
+                        src="{{ asset('models/mirza-3d-model.glb') }}" 
+                        poster="{{ asset('images/profile/photo.png') }}"
+                        alt="Model 3D Mochammad Mirza Ubadah" 
+                        class="about-photo-3d" 
+                        id="about-photo-3d" 
+                        camera-controls 
+                        auto-rotate 
+                        shadow-intensity="1.5" 
+                        environment-image="neutral"
+                        interaction-prompt="none"
+                        ar-status="not-presenting"
+                        loading="lazy">
+                    </model-viewer>
                     <div class="about-badge" id="about-badge">
                         <i class="fas fa-star"></i>
                         <div>
@@ -35,7 +44,7 @@
                 <span class="about-tag" id="about-greeting">Halo, Saya</span>
                 <h2 class="about-name" id="about-name">Mochammad Mirza <em>Ubadah</em></h2>
                 <p class="about-bio" id="about-bio">
-                    Seorang creative professional yang bersemangat dalam dunia desain grafis, produksi video, dan perfilman. Dengan pengalaman lebih dari 3 tahun, saya telah membantu berbagai klien dan brand untuk menyampaikan pesan mereka melalui visual yang kuat dan berkesan.
+                    Seorang desainer grafis profesional yang bersemangat dalam dunia branding, identitas visual, dan desain media kreatif. Dengan pengalaman lebih dari 3 tahun, saya telah membantu berbagai klien dan brand untuk menyampaikan pesan mereka melalui visual yang kuat, fungsional, dan berkesan.
                 </p>
                 <p class="about-bio" id="about-bio2">
                     Saya percaya bahwa setiap karya kreatif memiliki kekuatan untuk mengubah cara orang melihat dunia — dan itulah yang mendorong saya untuk terus berkarya dengan penuh dedikasi.
@@ -49,11 +58,11 @@
                     </div>
                     <div class="detail-item">
                         <span class="detail-label">Lokasi</span>
-                        <span class="detail-value">Indonesia</span>
+                        <span class="detail-value">Surabaya, Indonesia</span>
                     </div>
                     <div class="detail-item">
                         <span class="detail-label">Email</span>
-                        <span class="detail-value">mirza@email.com</span>
+                        <span class="detail-value">mirzaubadah9i@gmail.com</span>
                     </div>
                     <div class="detail-item">
                         <span class="detail-label">Tersedia</span>
@@ -103,13 +112,13 @@
                     </div>
                 </div>
 
-                <div class="skill-item" id="skill-film">
+                <div class="skill-item" id="skill-branding">
                     <div class="skill-header">
-                        <span>Filmmaking</span>
-                        <span>75%</span>
+                        <span>Branding & Identity</span>
+                        <span>85%</span>
                     </div>
                     <div class="skill-bar">
-                        <div class="skill-fill" data-width="75"></div>
+                        <div class="skill-fill" data-width="85"></div>
                     </div>
                 </div>
 
@@ -132,17 +141,17 @@
                 <div class="stats-grid">
                     <div class="stat-card" id="stat-projects">
                         <i class="fas fa-briefcase"></i>
-                        <strong class="stat-number" data-count="50">0</strong>
+                        <strong class="stat-number" data-count="13">0</strong>
                         <span>Proyek Selesai</span>
                     </div>
                     <div class="stat-card" id="stat-clients">
                         <i class="fas fa-users"></i>
-                        <strong class="stat-number" data-count="30">0</strong>
+                        <strong class="stat-number" data-count="9">0</strong>
                         <span>Klien Puas</span>
                     </div>
                     <div class="stat-card" id="stat-awards">
                         <i class="fas fa-trophy"></i>
-                        <strong class="stat-number" data-count="8">0</strong>
+                        <strong class="stat-number" data-count="2">0</strong>
                         <span>Penghargaan</span>
                     </div>
                     <div class="stat-card" id="stat-years">
@@ -176,24 +185,24 @@
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
                             <span class="timeline-date">2023 — Sekarang</span>
-                            <h4>Freelance Creative Director</h4>
-                            <p>Mengelola proyek desain dan video untuk berbagai klien lokal dan internasional.</p>
+                            <h4>Graphic Designer — Milestoone</h4>
+                            <p>Membuat konten Instagram yang menarik, logo brand yang kuat, serta foto estetik dengan komposisi dan pencahayaan terbaik untuk boost brand awareness.</p>
                         </div>
                     </div>
                     <div class="timeline-item" id="exp2">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <span class="timeline-date">2022 — 2023</span>
-                            <h4>Video Editor — Studio Kreatif XYZ</h4>
-                            <p>Produksi konten iklan, company profile, dan video sosial media untuk brand nasional.</p>
+                            <span class="timeline-date">2023 — Sekarang</span>
+                            <h4>Graphic Designer — InFoto Surabaya</h4>
+                            <p>Menyusun brand identity dan katalog promosi InFoto Surabaya, serta berkolaborasi dalam multimedia production workflow mencakup desain grafis, videografi, fotografi, dan produksi audio.</p>
                         </div>
                     </div>
                     <div class="timeline-item" id="exp3">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <span class="timeline-date">2021 — 2022</span>
-                            <h4>Junior Designer — Agency ABC</h4>
-                            <p>Desain visual, branding, dan materi pemasaran digital untuk berbagai brand.</p>
+                            <span class="timeline-date">2022 — 2023</span>
+                            <h4>Internship — PRO COMTECH</h4>
+                            <p>Merancang UI/UX website, memproduksi konten multimedia (grafis, video, audio), dan mendesain materi promosi seperti banner, event visual, dan konten media sosial.</p>
                         </div>
                     </div>
                 </div>
@@ -205,25 +214,17 @@
                     <div class="timeline-item" id="edu1">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <span class="timeline-date">2019 — 2023</span>
-                            <h4>S1 Desain Komunikasi Visual</h4>
-                            <p>Universitas [Nama Universitas] — Lulus dengan predikat Cum Laude.</p>
+                            <span class="timeline-date">2024 — Sekarang</span>
+                            <h4>EEPIS — Teknologi Multimedia & Broadcasting</h4>
+                            <p>Berkolaborasi dalam pengembangan identitas visual program televisi, termasuk logo, supergrafis, dan aset broadcasting. Memimpin produksi aset visual untuk berbagai event.</p>
                         </div>
                     </div>
                     <div class="timeline-item" id="edu2">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <span class="timeline-date">2022</span>
-                            <h4>Sertifikasi Adobe Certified Professional</h4>
-                            <p>Photoshop, Premiere Pro, After Effects — Adobe Systems.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item" id="edu3">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <span class="timeline-date">2021</span>
-                            <h4>Workshop Sinematografi</h4>
-                            <p>Jakarta Film Academy — Teknik pengambilan gambar dan color grading sinematik.</p>
+                            <span class="timeline-date">2021 — 2024</span>
+                            <h4>SMKN 13 Surabaya — Desain Komunikasi Visual</h4>
+                            <p>Menguasai prinsip dasar Desain Komunikasi Visual: tipografi, teori warna, dan layout. Mengembangkan skill multimedia meliputi fotografi, videografi, dan analitik media sosial.</p>
                         </div>
                     </div>
                 </div>
