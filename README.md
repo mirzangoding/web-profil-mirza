@@ -145,30 +145,6 @@ web-profil-mirza/
 
 ---
 
-## 🚀 Cara Menjalankan Lokal
-
-```bash
-# Clone & masuk folder
-cd web-profil-mirza
-
-# Install dependencies
-composer install
-
-# Salin environment
-cp .env.example .env
-php artisan key:generate
-
-# Jalankan migrasi database
-php artisan migrate
-
-# Jalankan server lokal
-php artisan serve
-```
-
-Buka browser di `http://127.0.0.1:8000`
-
----
-
 ## 📝 Changelog
 
 ### v2.0 — Juni 2026
